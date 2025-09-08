@@ -14,11 +14,11 @@ Checked for missing values and duplicate rows. Removed any duplicates to ensure 
 **Step 3: Encoding and Balancing**
 Encoded categorical features using LabelEncoder. Addressed class imbalance using SMOTE to oversample the minority class, ensuring balanced data for model training.
 
-**Step 4: Train-Test Split and Scaling**
+**Step 4: Train Test Split and Scaling**
 Split the dataset into training and test sets (80-20 split). Standardized the features using StandardScaler to improve model performance.
 
-**Step 5: Model Selection and Cross-Validation**
-Implemented Decision Tree and K-Nearest Neighbors classifiers. Applied 5-fold stratified cross-validation to evaluate the initial performance of both models.
+**Step 5: Model Selection and Cross Validation**
+Implemented Decision Tree and K Nearest Neighbors classifiers. Applied 5-fold stratified cross-validation to evaluate the initial performance of both models.
 
 **Step 6: Hyperparameter Tuning**
 Used GridSearchCV to find the best hyperparameters for Decision Tree (max depth and criterion) and KNN (number of neighbors and weights) to optimize model performance.
